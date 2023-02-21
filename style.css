@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@200;800&family=Shantell+Sans:wght@400;600&display=swap');
+
+*{
+    font-family: 'Shantell Sans', cursive;
+}
+.container .row .col h2 {
+    font-weight: 700;
+
+}
+
+.header-area {
+    position: relative;
+    height: 100vh;
+    background-image: url(/img/Shadow.gif);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repear;
+    background-size: cover;
+}
+
+header {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner .container h1 {
+        font-size: 2rem;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner .container #pSMK {
+        font-size: 1.5rem;
+
+    }
+}
+
+.banner .container h1 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner .container h1 {
+    font-weight: 800;
+    font-size: 3.6rem;
+    margin-bottom: 0.5rem;
+
+
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.banner .container p {
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+
+
+
+
+}
+
+
+
+.overlay::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+
+.mainColor {
+    background-color: #35373a;
+    padding-top: 5rem;
+    /* background-image: url(/img/beatrix-mencoba-melawan-lord-shadow.gif); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+
+}
+
+.text h2 span {
+    color: rgb(10, 12, 12);
+}
+
+.text {
+    color: #fff;
+    line-height: 1.6;
+
+}
+
+/* .row{
+    margin-left: 12rem;
+    margin-right: 12rem;
+} */
+.h1 {
+    margin-bottom: 20px;
+}
+
+.bg {
+    background-color: aliceblue;
+}
+
+.bg .h1 p {
+    font-size: 15px;
+}
